@@ -19,7 +19,7 @@ public class PrintExample {
 
         //2020,8,9 >>20200909
 
-        System.out.printf("%s의 키는 %.2f cm, 나이는 %,09d세, 혈액형은 %c형이다."
+        System.out.printf("%s의 키는 %.2f cm, 나이는 %d세, 혈액형은 %c형이다."
                            ,nm,     height,     age,        bloodType);
     }
 }

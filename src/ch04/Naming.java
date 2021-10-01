@@ -5,6 +5,9 @@ public class Naming {
 
         //bus,car,taxi
 
+        //상수
+        //BUS_CAR_TAXI
+
         //파스칼 케이스 기법(모든 단어의 첫글자는 대문자, 나머지는 소문자)
         //클래스명
         //BusCarTaxi
