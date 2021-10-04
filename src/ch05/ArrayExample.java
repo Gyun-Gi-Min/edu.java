@@ -12,6 +12,7 @@ public class ArrayExample {
         int[] scores = {83,90,87,100,50}; // int형 배열
         //scores[5]=11;
         //ArrayIndexOutOfBoundsException 이건 없는 배열을 사용할때 뜬다.
+        //배열은 5칸 유지.
         //System.out.println(scores[0]);
         System.out.println(scores.length);
         //길이를 알수있다.
