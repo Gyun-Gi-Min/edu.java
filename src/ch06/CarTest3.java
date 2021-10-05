@@ -11,9 +11,11 @@ public class CarTest3 {
         System.out.println("car2.nm : "+car2.nm);
 
         car2 =car ;
+        System.out.println("car2.brand : "+car2.brand);
         System.out.println("car2.nm : "+car2.nm);
 
         Car car3 = new Car("1",1);
+        car3.drive();
 
 
     }

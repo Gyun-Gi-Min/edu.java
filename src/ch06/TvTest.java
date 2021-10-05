@@ -1,6 +1,7 @@
 package ch06;
 
-public class TvTest {
+public class
+TvTest {
     public static void main(String[] args) {
         Tv tv = new Tv();
         tv.setBrand("삼성");

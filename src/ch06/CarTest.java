@@ -16,8 +16,8 @@ public class CarTest {
         car3.stop();
 
         Car car4 = new Car(); //new 나오는 순간 새로운 주소 만들어진다.
-        car4.brand = "현대";
-        car4.nm = "소나타";
+        car4.brand = car.brand;
+        car4.nm = car.nm;
         car4.drive();
         car4.stop();
 

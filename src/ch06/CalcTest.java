@@ -12,10 +12,13 @@ public class CalcTest {
         System.out.println("static sum : " + result);
 
 
-        Calc calc = new Calc();
-        calc.n1 = 10;
-        calc.n2 = 20;
-        int result2 = calc.sum();
+        Calc c = new Calc();
+        c.n1 = 10;
+        c.n2 = 20;
+
+        int result2 = c.sum();
         System.out.println("instance sum : "+result2);
+
+        int result3 =Calc.sum(10,20);
     }
 }
