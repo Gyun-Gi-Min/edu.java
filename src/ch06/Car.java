@@ -22,6 +22,7 @@ public class Car {
     //          파라미터만 다르다면 다르게 만들 수 있다. (구분해서 호출 할 수 있다면)
     //          (변수명은 중요X)타입만 중요, 타입의 갯수, 순서, 리턴타입은 상관없음!
     public Car() {}
+
     public Car(int aaa,String bb){
 
     }

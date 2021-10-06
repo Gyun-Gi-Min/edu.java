@@ -20,9 +20,10 @@ public class AnimalTest {
         // BigCat bc = new Cat();   자식이 부조참조 못해
         // Cat cat2 = new Animal(); 자식이 부조참조 못해
 
-        Cat cat2 = new BigCat();
+        Animal cat2 = new BigCat();
         cat2.crying();  //객체 기준으로 실행 됨 BigCat 기준.
-        // cat2.sleep(); 그냥 Cat에는 sleep(); 없으니까
+        // cat2.sleep(); 그냥 Animal에는 sleep(); 없으니까
+
         BigCat bigcat1 = (BigCat)cat2; //형변환 해줘야해
         bigcat1.sleep(); //호출된다~
 
